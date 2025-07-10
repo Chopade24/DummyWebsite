@@ -6,7 +6,7 @@ import org.springframework.web.bind.annotation.ResponseBody;
 
 @Controller
 public class OrderController {
-	@GetMapping("home")
+	@PostMapping("home")
 	public String home() {
 		return "home";
 	}
